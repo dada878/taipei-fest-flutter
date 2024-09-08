@@ -10,6 +10,11 @@ abstract final class TrendingServiceModel {
         url: 'https://taipei-pass-service.vercel.app/surrounding-service/',
       ),
       TrendingService(
+        title: '臺北大小事',
+        icon: Assets.svg.iconLocationSearch.svg(),
+        url: 'https://taipei-fest-frontend.vercel.app/',
+      ),
+      TrendingService(
         icon: Assets.svg.iconDashboardReports.svg(),
         title: '市民儀表板',
         url: 'https://dashboard.gov.taipei/',
